@@ -9,7 +9,9 @@ from switch import *
 
 # value = switch(variable,array)
 # variable = variable you want to switch
-# array = [[value,function_name]["default",function_name]
+# array = [[value,return_value],["default",return_value]
+# return_value = value or function name
+# "default" must be last or it will ignore any options after
 
 value = switch(x,array)
 print(value)
