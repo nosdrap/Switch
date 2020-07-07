@@ -7,10 +7,14 @@ Just simple switch function for python
 ```python
 from switch import *
 
-#value = switch(variable,array)
-value = switch(1,array)
+# value = switch(variable,array)
+# variable = variable you want to switch
+# array = [[value,function_name]["default",function_name]
+
+value = switch(x,array)
 print(value)
-function = switch(1,array)
+
+function = switch(x,array)
 function()
 ```
 
