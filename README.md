@@ -17,6 +17,3 @@ print(value)
 function = switch(x,array)
 function()
 ```
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
